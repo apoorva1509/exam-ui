@@ -1,0 +1,163 @@
+.submit-area{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit-page{
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.welcome-page{
+    flex-direction: column;
+    margin: 100px 200px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+
+
+.question-container{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(200, 200 ,200);
+    flex-basis: 70;
+    width: 75%;
+    height: 70%;
+    
+    
+}
+ .question-no{
+     border: 1px solid black;
+     border-radius: 5px;
+     height: 30%;
+     margin: 0% 5%;
+     width: 8%;
+     background-color: lightgrey;
+     
+
+     
+ }
+
+
+.navigation-header{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    flex-basis: 70%;
+    font-size: 30px;
+}
+
+.navigationButton {
+    
+    cursor: pointer;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    margin-block-start: 1.33em;
+
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%)}
+    .navigationButton:hover { background-position: right center; 
+  }
+  
+  .navigationButton.disabled {
+    opacity: 0.4;
+  }
+  
+  .navigationButton.submit-btn {
+    width: 20%;
+  
+    float: right;
+    margin-right: 10px;
+  }
+  .navigationButton.start-btn {
+    height: 50px;
+    padding: 4px 16px;
+    border-radius: 5px;
+  }
+
+  .review-area
+  {
+      border: 1px solid black;
+      border-radius: 5px;
+      box-shadow: 3px 3px rgb(200, 200, 200);
+  }
+
+  .question-title{
+      font-weight: bold;
+      padding: 30px 5px;
+      font-size: 25px;
+      text-align: left;
+  }
+  
+
+  .title-options{
+      flex-direction: column;
+      display: flex;
+      width: 60%;
+      height: 60%;
+      border: 1px solid ;
+      border-radius: 5px;
+      background-color: #def2f8;
+      padding-left: 8px;
+  }
+  .question-option{
+      padding:10px ;
+      font-size: 20px;
+      text-align: left;
+  }
+
+  .review-text{
+      padding: 30px 5px;
+      color: red;
+      font-size: 20px;
+  }
+  .main{
+      margin: 5% 5% 0%;
+      height: 80%;
+      width: 90%;
+  }
+
+  .right-container{
+      border: 1px solid;
+      border-radius: 5px;
+      box-shadow: 3px 3px rgb(200, 200, 200);
+      margin: 0% 5% 5% 5%;
+      
+      width: 15%;
+      height: 40%;
+  }
+   .review-box{
+       margin: 3% 5%;
+   }
+   h6{
+       font-size: 30px;
+   }
+   .navbutton{
+       margin:2%;
+   }
+   .next-btn{
+       margin: 2%;
+       display: inline-block;
+   }
+   .submit-btn{
+       margin: 2%;
+       position: relative;
+   }
+   .next{
+       display: inline-block;
+       position: relative;
+       margin-left: 2%;
+   }
+   .prev{
+       display: inline-block;
+       position: relative;
+       margin-right: 2%;
+   }
